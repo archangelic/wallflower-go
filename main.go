@@ -41,7 +41,7 @@ func main() {
 	port := "6667"
 	nick := "wallflower"
 	channel := "tildetown"
-	logfile := "irc.log"
+	logfile := "/home/archangelic/wallflower/irc.log"
 
 	conn, err := net.Dial("tcp", server+":"+port)
 
